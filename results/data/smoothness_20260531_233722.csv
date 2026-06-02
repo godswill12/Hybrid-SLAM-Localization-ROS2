@@ -1,0 +1,12 @@
+metric,value
+linear_vel_mean,0.1541
+linear_vel_std,0.1723
+linear_vel_max,0.5005
+angular_vel_mean,0.391
+angular_vel_std,0.4876
+angular_vel_max,1.2018
+linear_jerk_mean,0.6596
+linear_jerk_max,20.3821
+angular_jerk_mean,1.1931
+angular_jerk_max,305.4008
+samples,13418

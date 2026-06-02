@@ -1,0 +1,25 @@
+==========================================================
+  LOCALIZATION RESULTS SUMMARY
+==========================================================
+
+Method                      Avg(m)   Max(m)   RMSE(m)   <5cm(%)
+----------------------------------------------------------
+AMCL                        0.0874   0.2363    0.1013     30.6%
+EKF (AMCL corr)             0.0784   0.1845    0.0916     37.1%
+EIF (AMCL corr)             0.0784   0.1845    0.0915     37.0%
+RTAB-Map                    0.1546   0.7787    0.2263     39.4%
+Fused (EKF+RTAB)            0.0788   0.1846    0.0920     36.9%
+EKF (RTAB corr)             0.0916   0.3168    0.1254     45.9%
+
+Recovery time after obstacle spawn (s):
+  Method                     Obs1  Obs2  Obs3
+  AMCL                        0.16   0.37   0.11
+  EKF (AMCL corr)             0.16   0.37   0.11
+  EIF (AMCL corr)             0.16   0.37   0.11
+  RTAB-Map                    0.16   0.37   0.11
+  Fused (EKF+RTAB)            0.16   0.37   0.11
+  EKF (RTAB corr)             0.16  53.56   0.11
+
+Total samples: 26771
+Duration: 6758.7s
+Obstacle events: 3

@@ -1,0 +1,24 @@
+# config/ekf_params.yaml
+# Tune these values to match your robot's sensor characteristics.
+# Higher noise values = less trust in that source.
+
+ekf_node:
+  ros__parameters:
+
+    # EKF update rate (Hz)
+    use_sim_time: true
+    ekf_rate_hz: 50.0
+
+    # Process noise — how much uncertainty grows per prediction step.
+    # Increase if your odometry is poor / robot moves fast.
+    process_noise_x:     0.05
+    process_noise_y:     0.05
+    process_noise_theta: 0.05
+
+    # IMU measurement noise (yaw variance, radians²).
+    # Lower = trust IMU more.
+    imu_noise_theta: 0.02
+
+    # Enable/disable AMCL correction step.
+    # Set false if running without a map or AMCL node.
+    amcl_enabled: true

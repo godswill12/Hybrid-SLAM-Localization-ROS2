@@ -1,0 +1,6 @@
+node,avg_cpu_%,max_cpu_%,avg_mem_mb,max_mem_mb
+ekf_node,0.0,0.0,26.0,26.0
+eif_node,0.0,0.0,26.5,26.5
+rtabmap,0.0,0.0,26.37,26.37
+fusion_node,0.0,0.0,26.2,26.2
+ekf_rtab_node,0.0,0.0,26.22,26.22

@@ -1,0 +1,7 @@
+image: /ros_ws/ros_ws/src/hybrid_localization_pkg/maps/my_map.pgm
+mode: trinary
+resolution: 0.050
+origin: [-0.935, -2.071, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
