@@ -1,0 +1,57 @@
+# ==========================
+# Python cache and artifacts
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+*.pytest_cache/
+
+# ==========================
+# ROS2 build artifacts
+# ==========================
+build/
+install/
+log/
+*.log
+*.pyc
+
+# ==========================
+# Colcon workspace (ROS2)
+# ==========================
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# ==========================
+# VSCode / IDE settings
+# ==========================
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# ==========================
+# OS generated files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Simulation / Gazebo
+# ==========================
+*.gazebo
+*.world.backup
+*.sdf~
+*.model~
+*.log
+*.swp
+
+# ==========================
+# Results and temporary data
+# ==========================
+results/data/
