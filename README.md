@@ -431,4 +431,4 @@ MIT License — see LICENSE for details.
 
 **Emmanuel Israel Okpara**<br>
 MSc Graduate · **ITMO University · 2026**<br>
-📧 [Email](mailto:godswille45@gmail.com) · [GitHub](https://github.com/godswill12) · [LinkedIn](https://www.linkedin.com/in/israel-emmanuel-387567163/)
+📧 [Email](mailto:godswille45@gmail.com) · [GitHub](https://github.com/godswill12) · [LinkedIn](https://www.linkedin.com/in/israel-emmanuel-tech/)
